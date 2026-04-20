@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  
+  "pinMustBe": "Pin must be",
+  "digits": "digits",
+  "enterPin": "Enter Pin",
+}

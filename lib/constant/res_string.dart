@@ -1,0 +1,18 @@
+enum ResString {
+  login,
+  email,
+  pinMustBe,
+  digits,
+  enterPin,
+  search,
+  cancel,
+  noDataFound,
+  selectPhoto,
+  takePhoto,
+  select,
+  searchHere,
+  seeAll,
+  attendance,
+  logout,
+  sureWantLogout,
+}
