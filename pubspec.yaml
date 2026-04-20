@@ -1,0 +1,76 @@
+name: school_management
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  flutter_bloc: ^9.1.1
+  shared_preferences: ^2.5.3
+  get_it: ^9.2.1
+  flutter_native_splash: ^2.4.6
+  pinput: ^6.0.2
+  shimmer: ^3.0.0
+  carousel_slider: ^5.1.2
+  intl: ^0.20.2
+  iconoir_flutter: ^7.11.0
+  image_picker: ^1.2.1
+  material_design_icons_flutter: ^7.0.7296
+  table_calendar: ^3.2.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image_ios: assets/images/school_management_system.png
+  image: assets/images/school_management_system.png
+  icon_background_color: "#ffffff"
+  color_android: "#ffffff"
+  color_ios: "#ffffff"
+  branding_mode: center
+
+  android_12:
+    color: "#ffffff"
+
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/l10n/
+
+ 
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter_bold.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter_regular.ttf
+          weight: 400
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter_medium.ttf
+          weight: 600
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter_light.ttf
+          weight: 300
